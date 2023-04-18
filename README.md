@@ -70,9 +70,14 @@ We are going to use a sample schema given to use by MySQL.
 
 1. What is the relationship between the "actor" and "film_actor" tables?
 
+the film_actor table has the actor_id of ONE-TO-MANY relationship.
+The actor table has one and ONLY one relationship.
+
 2. What does the blue diamond next to the "last_update" column on the "inventory" table represent?
+The blue diamond next to last_update within the inventory table means that it is a NOT NULL (NN) simple attribute.
 
 3. How many foreign keys does the "payments" table have? How can you tell?
+There is no foreign keys. Due to the textbook, it is understood that the yellow key icon means it is only the PRIMARY key.
 
 ##### ER Diagram upload
 
